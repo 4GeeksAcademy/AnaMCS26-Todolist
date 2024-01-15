@@ -4,20 +4,19 @@ import Input from "./input";
 
 const Home = () => {
 	return (
-		<div className="text-center">
-			<ul>
-				<h1>To do List</h1>
-				<li>
-					<Input />
-		
-				</li>
-			</ul>
-			<div>
-				<p>Tareas</p>
-					
+		<div className=" container-fluid text-center">
+			<div className="row justify-content-center">
+				<ul>
+					<h1>Mis tareas</h1>
+					<li>
+						<Input />
+
+					</li>
+				</ul>
 			</div>
+
 		</div>
-		
+
 	);
 };
 
